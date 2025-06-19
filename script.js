@@ -7,6 +7,27 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.control.scale().addTo(map);
 
+// Easter egg message
+console.log(`
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+🎉EASTER EGG FOUND!🎉    
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+`);
+console.log("🎉 Easter Egg: Hey curious dev! You found Babs' secret note! Built with love and vibes ✨");
+console.log(` 
+You’re a seeker, a wanderer, a pioneer.  
+Not every treasure is made of gold,  
+Some are stories, quietly told.
+
+So here’s a note you didn’t expect,  
+A random poem to disconnect.  
+From lines of code and endless logs,  
+To secret words in digital fog.
+
+✨ Stay weird. Stay curious.  
+   Babs was here. ✨
+`);
+
 // Icon definitions
 var generalIcon = L.icon({
   iconUrl: 'https://cdn-icons-png.flaticon.com/512/12351/12351495.png',
